@@ -4,13 +4,13 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-public class Test
+public class EditTest
 {
     // A Test behaves as an ordinary method
     [Test]
-    public void TestSimplePasses()
+    public void EditTestSimplePasses()
     {
-        // Use the Assert class to test conditions
+        // trueチェックにあえてfalseを渡して失敗させる
         Assert.True(false);
     }
 }
