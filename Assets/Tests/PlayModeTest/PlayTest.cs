@@ -11,8 +11,8 @@ public class EditTest
     [UnityTest]
     public IEnumerator EditTestWithEnumeratorPasses()
     {
-        // trueチェックにあえてfalseを渡して失敗させる
-        Assert.True(false);
+        // なおした
+        Assert.True(true);
 
         yield return null;
     }

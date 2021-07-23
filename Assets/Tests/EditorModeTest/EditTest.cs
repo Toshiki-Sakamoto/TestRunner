@@ -10,7 +10,7 @@ public class EditTest
     [Test]
     public void EditTestSimplePasses()
     {
-        // trueチェックにあえてfalseを渡して失敗させる
-        Assert.True(false);
+        // なおした
+        Assert.True(true);
     }
 }
